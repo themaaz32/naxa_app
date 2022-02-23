@@ -7,8 +7,57 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsPngsGen {
+  const $AssetsPngsGen();
+
+  /// File path: assets/pngs/locker-dynamic-gradient.png
+  AssetGenImage get lockerDynamicGradient =>
+      const AssetGenImage('assets/pngs/locker-dynamic-gradient.png');
+
+  /// File path: assets/pngs/pencil-dynamic-gradient.png
+  AssetGenImage get pencilDynamicGradient =>
+      const AssetGenImage('assets/pngs/pencil-dynamic-gradient.png');
+}
+
+class $AssetsSvgsGen {
+  const $AssetsSvgsGen();
+
+  $AssetsSvgsIconsGen get icons => const $AssetsSvgsIconsGen();
+
+  /// File path: assets/svgs/logo_black.svg
+  String get logoBlack => 'assets/svgs/logo_black.svg';
+
+  /// File path: assets/svgs/logo_white.svg
+  String get logoWhite => 'assets/svgs/logo_white.svg';
+}
+
+class $AssetsSvgsIconsGen {
+  const $AssetsSvgsIconsGen();
+
+  /// File path: assets/svgs/icons/ic_add_document.svg
+  String get icAddDocument => 'assets/svgs/icons/ic_add_document.svg';
+
+  /// File path: assets/svgs/icons/ic_consulting.svg
+  String get icConsulting => 'assets/svgs/icons/ic_consulting.svg';
+
+  /// File path: assets/svgs/icons/ic_deposit.svg
+  String get icDeposit => 'assets/svgs/icons/ic_deposit.svg';
+
+  /// File path: assets/svgs/icons/ic_menu_dotted.svg
+  String get icMenuDotted => 'assets/svgs/icons/ic_menu_dotted.svg';
+
+  /// File path: assets/svgs/icons/ic_pay_services.svg
+  String get icPayServices => 'assets/svgs/icons/ic_pay_services.svg';
+
+  /// File path: assets/svgs/icons/ic_transfer.svg
+  String get icTransfer => 'assets/svgs/icons/ic_transfer.svg';
+}
+
 class Assets {
   Assets._();
+
+  static const $AssetsPngsGen pngs = $AssetsPngsGen();
+  static const $AssetsSvgsGen svgs = $AssetsSvgsGen();
 }
 
 class AssetGenImage extends AssetImage {
